@@ -8,7 +8,7 @@ let resumeData = {
     "emailid": "sawant.ai@northeastern.edu",
     "gemail": "aishwaryasawant697@gmail.com",
     "address": "Boston, MA",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I like cooking in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
