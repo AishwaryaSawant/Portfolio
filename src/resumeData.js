@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/AishwaryaSawant",
-    "name": "I am Aishwarya Sawant",
+    "name": "Aishwarya Sawant",
     "role": "Full Stack Developer | Software Developer",
     "linkedinId":"https://www.linkedin.com/in/aishwaryassawant/",
     "phoneNumber":"862-237-5676",
@@ -101,7 +101,8 @@ let resumeData = {
       {
         "name":"Smart Organic Farming",
         "description":"application",
-        "imgurl":"images/portfolio/organicFarm.jpg"
+        "imgurl":"images/portfolio/organicFarm.jpg",
+        "url":"https://github.com/AishwaryaSawant/Smart-Organic-Farming"
       },
       {
         "name":"project2",
