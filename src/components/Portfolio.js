@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
 
-function openRepoinNewTab(url) {
-  var win = window.open(url, "_blank");
-  win.focus();
-}
+// function openRepoinNewTab(url) {
+//   var win = window.open(url, "_blank");
+//   win.focus();
+// }
 
 export default class Porfolio extends Component {
-
   
 
   render() {
@@ -21,20 +20,20 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
+                <a href={`${item.url}`} target="_blank" rel="noopener noreferrer">
+
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={item.url}>
                       <img src={`${item.imgurl}`} style={{height:'300px',width:'350px'}}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          
                         </div>
                       </div>
-                    </a>
                   </div>
                 </div>
+                </a>
               )
             })
           }

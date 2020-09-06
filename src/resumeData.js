@@ -105,19 +105,21 @@ let resumeData = {
         "url":"https://github.com/AishwaryaSawant/Smart-Organic-Farming"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Event Organisation System",
+        "description":"application",
+        "imgurl":"images/portfolio/eventManagement.jpg",
+        "url":"https://github.com/AishwaryaSawant/EventOrganisationSystem"
       },
       {
-        "name":"project3",
+        "name":"Telecommunication Management System",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/teleManagement.jpg",
+        "url":"https://github.com/AishwaryaSawant/Telecommunication-Management-System"
       },
       {
-        "name":"project4",
+        "name":"Song Recommender System",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/songImage.jpg"
       }
     ],
     "testimonials":[

@@ -175,11 +175,8 @@ onSubmit = (e) => {
                   Address : {resumeData.address}
                 </h4> 
                 <div className="three columns">
-
-<img className="contact-pic"  src="images/ContactPic.jpg" alt="" />
-
-</div>
-                
+                    <img className="contact-pic"  src="images/ContactPic.jpg" alt="" />
+                </div>              
                 </div>
             </aside>          
           </div>
