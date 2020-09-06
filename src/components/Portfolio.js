@@ -24,8 +24,8 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                      <img src={`${item.imgurl}`} style={{height:'300px',width:'350px'}} key={item.name} onClick={() => openRepoinNewTab(item.url)}/>
-                      <div className="overlay">
+                      <img src={`${item.imgurl}`} style={{height:'300px',width:'350px'}}/>
+                      <div className="overlay" onClick={openRepoinNewTab(item.url)}>
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
