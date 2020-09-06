@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
+
+
+function openRepoinNewTab(url) {
+  var win = window.open(url, "_blank");
+  win.focus();
+}
+
 export default class Porfolio extends Component {
+
+  
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -14,11 +24,12 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01">
-                      <img src={`${item.imgurl}`} style={{height:'300px',width:'350px'}} />
+                      <img src={`${item.imgurl}`} style={{height:'300px',width:'350px'}} key={item.name} onClick={() => openRepoinNewTab(item.url)}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+                          
                         </div>
                       </div>
                     </a>
