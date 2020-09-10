@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
-import axios from 'axios';
+// import axios from 'axios';
 import Hero from '../components/Hero';
+import emailjs from 'emailjs-com';
+// import{ init } from 'emailjs-com';
+// init("user_iYjFkA2q6ALi6rg6uS4dF");
 
 Modal.setAppElement('div');
 
@@ -23,9 +26,19 @@ const customStyles = {
     }
 };
 
-  
+// function sendEmail(e) {
+//     e.preventDefault();
+
+//     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+//       .then((result) => {
+//           console.log(result.text);
+//       }, (error) => {
+//           console.log(error.text);
+//       });
+//   }
+
 export default class ContactUs extends Component {
-  
+    
   state = {
     name: '',
     nameError: '',
@@ -53,8 +66,10 @@ closeModal = () => {
     });
 }
 
+
 onSubmit = (e) => {
     e.preventDefault();
+    e.persist();
 
     if (this.state.name === '') {
         this.setState({
@@ -99,39 +114,64 @@ onSubmit = (e) => {
             messageError: ''
         })
     }
+    console.log("Aishwarya Email12");
 
     setTimeout(() => {
+        console.log("Aishwarya Email1");
         if (this.state.nameError === '' && this.state.emailError === '' && this.state.subjectError === '' && this.state.messageError === '') {
-            axios.post('/send-email', {
-                name: this.state.name,
-                email: this.state.email,
-                subject: this.state.subject,
-                message: this.state.message
-            }, {
-                    headers: {
-                        'content-type': 'application/json',
-                    },
-                })
-                .then(response => {
-                    this.setState({
-                        resData: response.data
-                    });
+            console.log("Aishwarya Email if consition");
+            emailjs.sendForm('service_73mwiyv', 'template_k32h9gn', 'contact-form', 'user_iYjFkA2q6ALi6rg6uS4dF')
+            .then((result) => {
+                console.log("Aishwarya Email");
+                console.log(result.text);
+                this.setState({
+                    resData: result.data
+                });
 
-                    this.setState({
-                        modalIsOpen: true
-                    });
+                this.setState({
+                    modalIsOpen: true
+                });
 
-                    this.setState({
-                        name: '',
-                        email: '',
-                        subject: '',
-                        message: '',
-                    })
+                this.setState({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: '',
+                })
+            }, (error) => {
+                console.log("Aishwarya Email Error");
+                console.log(error.text);
+            });
+            // axios.post('/send-email', {
+            //     name: this.state.name,
+            //     email: this.state.email,
+            //     subject: this.state.subject,
+            //     message: this.state.message
+            // }, {
+            //         headers: {
+            //             'content-type': 'application/json',
+            //         },
+            //     })
+            //     .then(response => {
+            //         this.setState({
+            //             resData: response.data
+            //         });
 
-                })
-                .catch(function (error) {
-                    console.log(error.response);
-                })
+            //         this.setState({
+            //             modalIsOpen: true
+            //         });
+
+            //         this.setState({
+            //             name: '',
+            //             email: '',
+            //             subject: '',
+            //             message: '',
+            //         })
+
+            //     })
+            //     .catch(function (error) {
+            //         console.log(error.response);
+            //     })
         } else {
             this.setState({
                 resData: 'Oops! Something went wrong!'
@@ -194,7 +234,7 @@ onSubmit = (e) => {
                 />
                 <div className="full-width-row cta-form--bg">
                     <div className="row-container">
-                        <form className="cta-form">
+                        <form className="cta-form" id="contact-form">
                             <label className="cta-form__label" htmlFor="name">Name</label>
                             <input
                                 name="name"
@@ -202,7 +242,7 @@ onSubmit = (e) => {
                                 onChange={e => this.change(e)}
                                 type="text"
                                 className="cta-form__input"
-                                id="name"
+                                // id="name"
                                 style={{ margin: `${this.state.nameError.length > 0 ? "0" : ''}` }}
                             />
                             <p className="form-error">{this.state.nameError}</p>
@@ -213,7 +253,7 @@ onSubmit = (e) => {
                                 onChange={e => this.change(e)}
                                 type="text"
                                 className="cta-form__input"
-                                id="email"
+                                // id="email"
                                 style={{ margin: `${this.state.emailError.length > 0 ? "0" : ''}` }}
                             />
                             <p className="form-error">{this.state.emailError}</p>
@@ -224,7 +264,7 @@ onSubmit = (e) => {
                                 onChange={e => this.change(e)}
                                 type="text"
                                 className="cta-form__input"
-                                id="subject"
+                                // id="subject"
                                 style={{ margin: `${this.state.subjectError.length > 0 ? "0" : ''}` }}
                             />
                             <p className="form-error">{this.state.subjectError}</p>
@@ -234,11 +274,12 @@ onSubmit = (e) => {
                                 onChange={e => this.change(e)}
                                 value={this.state.message}
                                 className="cta-form__textarea"
-                                id="message"
+                                // id="message"
                                 style={{ margin: `${this.state.messageError.length > 0 ? "0" : ''}` }}
                             />
                             <p className="form-error">{this.state.messageError}</p>
                             <div align="center">
+                                {/* <input type="submit" className="btn btn--white" value="Send Message"></input></div> */}
                             <button 
                                 className="btn btn--white"
                                 onClick={e => this.onSubmit(e)}
