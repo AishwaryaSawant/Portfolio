@@ -35,14 +35,16 @@ let resumeData = {
         "specialization":"Master of Science in Information Systems",
         "MonthOfPassing":"May",
         "YearOfPassing":"2021",
-        "Achievements":"Some Achievements"
+        "Achievements":"Relevant Courses: Application Engineering and Development, Web Development Tools and Methods, Program Structure and Algorithms, Database Management and Database Design",
+        "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Database Design. "
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Mumbai",
+        "specialization":"Bachelor of Engineering in Information Technology",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2016",
+        "Achievements":"Relevant courses: Web Design, Data Structures and Algorithms, Object Oriented Programming Methodology, Data Warehousing and Business Intelligence, Database Management Systems, Advanced Database Management Systems",
+        "AboutEdu": ""
       }
     ],
     "work":[
