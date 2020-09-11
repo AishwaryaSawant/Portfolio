@@ -8,7 +8,7 @@ let resumeData = {
     "emailid": "sawant.ai@northeastern.edu",
     "gemail": "aishwaryasawant697@gmail.com",
     "address": "Boston, MA",
-    "roleDescription": "Hi! I am you next Software Developer/Data Analyst. I am diligent and highly motivated Software Engineer with 2years of professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack to learn new tools and technology. Also, I am a team player, experienced in leading a team and working in a team. Also, I look forward to face new challenges and continuously learn and grow.",
+    "roleDescription": "Hi! I am you next Software Developer/Data Analyst. I am diligent and highly motivated Software Engineer with professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack to learn new tools and technology. I look forward to face new challenges and continuously learn and grow.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -21,12 +21,12 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"instagram",
+          "url":"https://www.instagram.com/ashsawant24/",
+          "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"Software Engineer having professional experience in Application and Database Development, and also the skills and expertise to work on multiple technologies and languages. Possessing great problem solving and analytical abilities, I would like to pursue my career as a Software engineer.Currently pursuing a Masters degree in Information Systems with Specialization in Full Stack Development from Northeastern University, Boston MA. I would like to work in a challenging environment where I would get an opportunity to test and polish my skills becoming an expert in the area of software development",
+    "aboutme":"Software Engineer having professional experience in Application and Database Development, and also the skills and expertise to work on multiple technologies and languages. Possessing great problem solving and analytical abilities, I would like to pursue my career as a Software engineer.Currently pursuing a Masters degree in Information Systems with Specialization in Full Stack Development/Data Analytics from Northeastern University, Boston MA. I would like to work in a challenging environment where I would get an opportunity to test and polish my skills becoming an expert in the area of software development",
     "address":"Boston, MA",
     "website":"https://github.com/AishwaryaSawant",
     "education":[
