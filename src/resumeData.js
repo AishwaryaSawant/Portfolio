@@ -8,7 +8,7 @@ let resumeData = {
     "emailid": "sawant.ai@northeastern.edu",
     "gemail": "aishwaryasawant697@gmail.com",
     "address": "Boston, MA",
-    "roleDescription": "I like cooking in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "Hi! I am you next Software Developer/Data Analyst. I am diligent and highly motivated Software Engineer with 2years of professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack to learn new tools and technology. Also, I am a team player, experienced in leading a team and working in a team. Also, I look forward to face new challenges and continuously learn and grow.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -26,7 +26,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"Software Engineer having professional experience in Application and Database Development, and also the skills and expertise to work on multiple technologies and languages. Possessing great problem solving and analytical abilities, I would like to pursue my career as a Software engineer.Currently pursuing a Masters degree in Information Systems with Specialization in Full Stack Development from Northeastern University, Boston MA. I would like to work in a challenging environment where I would get an opportunity to test and polish my skills becoming an expert in the area of software development",
     "address":"Boston, MA",
     "website":"https://github.com/AishwaryaSawant",
     "education":[
@@ -45,24 +45,24 @@ let resumeData = {
         "MonthOfPassing":"May",
         "YearOfPassing":"2016",
         "Gpa":"3.5",
-        "Achievements":"Relevant courses: Web Design, Data Structures and Algorithms, Object Oriented Programming Methodology, Data Warehousing and Business Intelligence, Database Management Systems, Advanced Database Management Systems",
+        "Achievements":"Relevant courses: Web Design, Object Oriented Programing Methodology, Data Warehousing and Business Intelligence, Advanced Database Management Systems",
         "AboutEdu": "My Bachelor's coursework was a varied technological stack along with courses related to soft-skills. This coursework helped me in all-round development to become a successful software engineer. I develped a capstone project using AndroidSDK increasing my proficiency in Java and SQL. Also these courses helped me during my work-experience right from technical skills to soft skills, as my company was able to gain success in proposing development of new application, through my client communication and in-depth technical knowledge"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Quinnox Consultancy Services Ltd",
+        "specialization":"Software Engineer",
+        "MonthOfLeaving":"July",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Developed applications using Java, C#, SQLServer, ASP.NET, worked throughout the Agile development lifecycle performing software development, debugging and testing, Created web pages working on front-end, using HTML, CSS, Bootstrap, JavaScript as JIRA tickets for DX Tracking website , Automated process of database backup, restoration, and report generation increasing efficiency by 31%, Constructed, documented and presented Stored Procedures to solve calculation errors to about 1+ million records, Created an app using Spring MVC, JSP, Servlet, Java, Oracle to generate purchase order for fresher training sessions, Mentored 10 new associates through training sessions and monitoring progress for an initial period of probation"
       },
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"Indian Oil Corporation Ltd",
         "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "MonthOfLeaving":"July",
+        "YearOfLeaving":"2015",
+        "Achievements":"Gained experience in coding with Nodejs, React/Redux, Express, APIs, Git, Data structures, Algorithms while working under mentorship of senior team for development of software to update prices at 10000+ Indian Oil petrol pumps, Demonstrated problem solving and analytical skills to construct unit test cases, and conduct regression testing"
       }
     ],
     "skillsDescription":"Your skills here",
