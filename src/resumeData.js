@@ -35,16 +35,18 @@ let resumeData = {
         "specialization":"Master of Science in Information Systems",
         "MonthOfPassing":"May",
         "YearOfPassing":"2021",
+        "Gpa":"4.0",
         "Achievements":"Relevant Courses: Application Engineering and Development, Web Development Tools and Methods, Program Structure and Algorithms, Database Management and Database Design",
-        "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Database Design. "
+        "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Database Design. I have gained knowledge and experience in web/application development throughout the software development lifecycle. Also, I have been following agile development methodology. I am always open to learning and so the technology stack I have selected for my graduation is diverse, ranging from frontend development to backend development and also Data Analysis and Data Science related courses. Apart from this, I have developed strong communication skills throughtout my project presentations and working in group improving my teamwork ability further. My coursework has helped me enhance my problem solving and analytical abilities."
       },
       {
         "UniversityName":"University of Mumbai",
         "specialization":"Bachelor of Engineering in Information Technology",
         "MonthOfPassing":"May",
         "YearOfPassing":"2016",
+        "Gpa":"3.5",
         "Achievements":"Relevant courses: Web Design, Data Structures and Algorithms, Object Oriented Programming Methodology, Data Warehousing and Business Intelligence, Database Management Systems, Advanced Database Management Systems",
-        "AboutEdu": ""
+        "AboutEdu": "My Bachelor's coursework was a varied technological stack along with courses related to soft-skills. This coursework helped me in all-round development to become a successful software engineer. I develped a capstone project using AndroidSDK increasing my proficiency in Java and SQL. Also these courses helped me during my work-experience right from technical skills to soft skills, as my company was able to gain success in proposing development of new application, through my client communication and in-depth technical knowledge"
       }
     ],
     "work":[

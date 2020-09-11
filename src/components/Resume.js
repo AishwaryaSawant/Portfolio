@@ -19,10 +19,10 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
-                          {item.specialization}
+                  {item.specialization}<span>&bull;</span> <b>GPA: {item.Gpa}</b>
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements} <br/>
+                          {item.Achievements} <br/><br/>
                             {item.AboutEdu}
                           </p>
                        </div>
