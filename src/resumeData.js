@@ -59,7 +59,7 @@ let resumeData = {
       },
       {
         "CompanyName":"Indian Oil Corporation Ltd",
-        "specialization":"Some specialization",
+        "specialization":"Software Engineer Intern",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2015",
         "Achievements":"Gained experience in coding with Nodejs, React/Redux, Express, APIs, Git, Data structures, Algorithms while working under mentorship of senior team for development of software to update prices at 10000+ Indian Oil petrol pumps, Demonstrated problem solving and analytical skills to construct unit test cases, and conduct regression testing"
