@@ -51,11 +51,11 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Quinnox Consultancy Services Ltd",
-        "specialization":"Software Engineer",
-        "MonthOfLeaving":"July",
-        "YearOfLeaving":"2018",
-        "Achievements":"Developed applications using Java, C#, SQLServer, ASP.NET, worked throughout the Agile development lifecycle performing software development, debugging and testing, Created web pages working on front-end, using HTML, CSS, Bootstrap, JavaScript as JIRA tickets for DX Tracking website , Automated process of database backup, restoration, and report generation increasing efficiency by 31%, Constructed, documented and presented Stored Procedures to solve calculation errors to about 1+ million records, Created an app using Spring MVC, JSP, Servlet, Java, Oracle to generate purchase order for fresher training sessions, Mentored 10 new associates through training sessions and monitoring progress for an initial period of probation"
+        "CompanyName":"Spectro Scientific - Ametek",
+        "specialization":"Software Engineer Co-op",
+        "MonthOfLeaving":"Jun",
+        "YearOfLeaving":"2021",
+        "Achievements":"Developed code in C#, VB.net for Oil Analysis machine, providing detailed analysis of about 40 metal components,Received appreciation for elimination of legacy Method editor, converting 30k+ lines of code from VB6 to VB.Net, Fixed Veracode flaws, sql injections of 150+ queries, xml injections, encryption, achieved 90% fix without risk mitigation, Worked on AWS cloud services, and collaborated with teams across countries in agile scrum development environment"
       },
       {
         "CompanyName":"Quinnox Consultancy Services Ltd",
