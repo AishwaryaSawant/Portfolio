@@ -58,6 +58,13 @@ let resumeData = {
         "Achievements":"Developed applications using Java, C#, SQLServer, ASP.NET, worked throughout the Agile development lifecycle performing software development, debugging and testing, Created web pages working on front-end, using HTML, CSS, Bootstrap, JavaScript as JIRA tickets for DX Tracking website , Automated process of database backup, restoration, and report generation increasing efficiency by 31%, Constructed, documented and presented Stored Procedures to solve calculation errors to about 1+ million records, Created an app using Spring MVC, JSP, Servlet, Java, Oracle to generate purchase order for fresher training sessions, Mentored 10 new associates through training sessions and monitoring progress for an initial period of probation"
       },
       {
+        "CompanyName":"Quinnox Consultancy Services Ltd",
+        "specialization":"Software Engineer",
+        "MonthOfLeaving":"July",
+        "YearOfLeaving":"2018",
+        "Achievements":"Developed applications using Java, C#, SQLServer, ASP.NET, worked throughout the Agile development lifecycle performing software development, debugging and testing, Created web pages working on front-end, using HTML, CSS, Bootstrap, JavaScript as JIRA tickets for DX Tracking website , Automated process of database backup, restoration, and report generation increasing efficiency by 31%, Constructed, documented and presented Stored Procedures to solve calculation errors to about 1+ million records, Created an app using Spring MVC, JSP, Servlet, Java, Oracle to generate purchase order for fresher training sessions, Mentored 10 new associates through training sessions and monitoring progress for an initial period of probation"
+      },
+      {
         "CompanyName":"Indian Oil Corporation Ltd",
         "specialization":"Software Engineer Intern",
         "MonthOfLeaving":"July",
