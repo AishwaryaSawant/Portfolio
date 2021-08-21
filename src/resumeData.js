@@ -1,14 +1,14 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/AishwaryaSawant",
     "name": "Aishwarya Sawant",
-    "role": "Full Stack Developer | Software Developer",
+    "role": "Full Stack Developer | Software Developer | Data Analyst | Data Engineer",
     "linkedinId":"https://www.linkedin.com/in/aishwaryassawant/",
     "phoneNumber":"862-237-5676",
     "skypeid": "aishwaryasawant697",
     "emailid": "sawant.ai@northeastern.edu",
     "gemail": "aishwaryasawant697@gmail.com",
     "address": "Boston, MA",
-    "roleDescription": "Hi! I am you next Software Developer/Data Analyst. I am diligent and highly motivated Software Engineer with professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack to learn new tools and technology. I look forward to face new challenges and continuously learn and grow.",
+    "roleDescription": "Hi! I am you next Software Developer/Data Analyst. I am diligent and highly motivated Software Engineer with professional experience in the field of Software Development and Data Analysis. I love to deep dive into technology stack to learn new tools and technology. I look forward to face new challenges and continuously learn and grow. My love for technology has helped me gain an expertise professionally and academically in the field of software development and data analysis.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -26,17 +26,17 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"Software Engineer having professional experience in Application and Database Development, and also the skills and expertise to work on multiple technologies and languages. Possessing great problem solving and analytical abilities, I would like to pursue my career as a Software engineer.Currently pursuing a Masters degree in Information Systems with Specialization in Full Stack Development/Data Analytics from Northeastern University, Boston MA. I would like to work in a challenging environment where I would get an opportunity to test and polish my skills becoming an expert in the area of software development",
+    "aboutme":"Software Engineer having professional experience in Application, Database Development and Data Analysis, also do possess the skills and expertise to work on multiple technologies and languages. Possessing great problem solving and analytical abilities, I have acquired tremendous professional and academic knowledge and experience in the field of software development and data analysis. Currently I am pursuing a Masters degree in Information Systems with Specialization in Full Stack Development and Data Analytics from Northeastern University, Boston MA. I would like to work in a challenging environment where I would get an opportunity to test and polish my skills becoming an expert in the area of software development",
     "address":"Boston, MA",
     "website":"https://github.com/AishwaryaSawant",
     "education":[
       {
         "UniversityName":"Northeastern University",
         "specialization":"Master of Science in Information Systems",
-        "MonthOfPassing":"May",
+        "MonthOfPassing":"Dec",
         "YearOfPassing":"2021",
-        "Gpa":"4.0",
-        "Achievements":"Relevant Courses: Application Engineering and Development, Web Development Tools and Methods, Program Structure and Algorithms, Database Management and Database Design",
+        "Gpa":"3.8",
+        "Achievements":"Relevant Courses: Application Engineering and Development, Web Development Tools and Methods, Program Structure and Algorithms, Database Management and Database Design, Data Science Engineering methods and tools, ",
         "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Database Design. I have gained knowledge and experience in web/application development throughout the software development lifecycle. Also, I have been following agile development methodology. I am always open to learning and so the technology stack I have selected for my graduation is diverse, ranging from frontend development to backend development and also Data Analysis and Data Science related courses. Apart from this, I have developed strong communication skills throughtout my project presentations and working in group improving my teamwork ability further. My coursework has helped me enhance my problem solving and analytical abilities."
       },
       {
@@ -62,17 +62,17 @@ let resumeData = {
         "specialization":"Software Engineer",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2018",
-        "Achievements":"Developed applications using Java, C#, SQLServer, ASP.NET, worked throughout the Agile development lifecycle performing software development, debugging and testing, Created web pages working on front-end, using HTML, CSS, Bootstrap, JavaScript as JIRA tickets for DX Tracking website , Automated process of database backup, restoration, and report generation increasing efficiency by 31%, Constructed, documented and presented Stored Procedures to solve calculation errors to about 1+ million records, Created an app using Spring MVC, JSP, Servlet, Java, Oracle to generate purchase order for fresher training sessions, Mentored 10 new associates through training sessions and monitoring progress for an initial period of probation"
+        "Achievements":"Developed backend code for applications using Java, C#, SQLServer, ASP.NET, Spring MVC, JSP, Servlet, RESTful API, Created web pages, handled front-end, debugging and testing as JIRA tickets for DX Tracking website, Automated process of database backup, restoration, accomplished analysis with ETL tool Alteryx, increased efficiency by 31%, Constructed, documented Stored Procedures, functions to solve calculation errors to records, Developed SQL nested queries daily, automated report using excel macros and built KPI dashboard for data analysis, Automated database backup, restoration, excel report generation and mentored it, used ETL tools, increased efficiency by 31%"
       },
       {
         "CompanyName":"Indian Oil Corporation Ltd",
         "specialization":"Software Engineer Intern",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2015",
-        "Achievements":"Gained experience in coding with Nodejs, React/Redux, Express, APIs, Git, Data structures, Algorithms while working under mentorship of senior team for development of software to update prices at 10000+ Indian Oil petrol pumps, Demonstrated problem solving and analytical skills to construct unit test cases, and conduct regression testing"
+        "Achievements":"Implemented coding with Node.js, ReactJS/Redux, Express, APIs, Git, Data structures, Algorithms for development to update prices at 10000+ petrol pumps, worked on Linux OS, Constructed unit test cases, and conducted regression testing, created dashboards using PowerBI, Trained and performance-tuned machine learning and Ensemble learning models such as Random Forests, Bagging using Tensorflow, Scikit-learn, Pandas, Numpy libraries in Python, Utilized Google Analytics/Tag Manager creating scripts, increasing performance by 25%, created dashboards with PowerBI"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Software Engineering and Data Analyst Skills",
     "skills":[
       {
         "skillname":"Java"
