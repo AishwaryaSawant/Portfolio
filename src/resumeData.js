@@ -128,14 +128,10 @@ let resumeData = {
         "url":"https://github.com/AishwaryaSawant/Telecommunication-Management-System"
       },
       {
-        "name":"Song Recommender System",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/songImage.jpg"
-      },
-      {
-        "name":"Song Recommender System",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/songImage.jpg"
+        "name":"Used Car Price Prediction",
+        "description":"predictive analysis",
+        "imgurl":"images/portfolio/usedcar.jpg",
+        "url":"https://github.com/AishwaryaSawant/Used_Car_Price_Prediction"
       }
     ],
     "testimonials":[
