@@ -130,7 +130,7 @@ let resumeData = {
       {
         "name":"Used Car Price Prediction",
         "description":"predictive analysis",
-        "imgurl":"images/portfolio/usedcar.jpg",
+        "imgurl":"images/portfolio/usedcar.jpeg",
         "url":"https://github.com/AishwaryaSawant/Used_Car_Price_Prediction"
       }
     ],
