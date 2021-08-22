@@ -8,7 +8,7 @@ let resumeData = {
     "emailid": "sawant.ai@northeastern.edu",
     "gemail": "aishwaryasawant697@gmail.com",
     "address": "Boston, MA",
-    "roleDescription": "Hi! I am a technology entusiast. I am diligent and highly motivated, with professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack and my love for it, has helped me gain an expertise professionally and academically in the field of software development and data engineering equally. I look forward to face new challenges and continuously learn and grow.",
+    "roleDescription": "Hi! I am a technology entusiast. I am diligent and highly motivated, with professional experience in the field of Software Development and Data Engineering. I love to deep dive into technology stack and my passion for it, has helped me gain an expertise professionally and academically in the field of software development and data engineering equally. I look forward to face new challenges and continuously learn and grow.",
     "socialLinks":[
         {
           "name":"linkedin",
