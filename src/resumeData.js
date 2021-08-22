@@ -37,7 +37,7 @@ let resumeData = {
         "YearOfPassing":"2021",
         "Gpa":"3.8",
         "Achievements":"Relevant Courses: Application Engineering and Development, Web Development Tools and Methods, Program Structure and Algorithms, Database Management and Database Design, Data Science Engineering methods and tools, Network structures and Cloud computing, Machine Learning in Finance, Advanced Big Data Indexing",
-        "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Data Analytics. I have gained knowledge and experience in web/application development throughout the software development lifecycle. Also, I have been following agile development methodology. I am always open to learning and so the technology stack I have selected for my graduation is diverse, ranging from frontend development to backend development and also Data Analysis and Data Science related courses. Apart from this, I have developed strong communication skills throughtout my project presentations and working in group improving my teamwork ability further. My coursework has helped me enhance my problem solving and analytical abilities."
+        "AboutEdu": "My Graduate coursework has strengthen my concepts of Product Development, Systems Design, Object oriented princeples, Database Management and Data Analytics. I have gained knowledge and experience in web/application development throughout the software development lifecycle. Also, I have been following agile development methodology. I am always open to learning and so the technology stack I have selected for my graduation is diverse, ranging from Front-end development to Back-end development and also Data Analysis and Data Science related courses. Apart from this, I have developed strong communication skills throughtout my project presentations and working in group improving my teamwork ability further. My coursework has helped me enhance my problem solving and analytical abilities."
       },
       {
         "UniversityName":"University of Mumbai",
@@ -55,7 +55,7 @@ let resumeData = {
         "specialization":"Software Engineer Co-op",
         "MonthOfLeaving":"Jun",
         "YearOfLeaving":"2021",
-        "Achievements":"Developed code in C#, VB.net for Oil Analysis machine, providing detailed analysis of about 40 metal components, Received appreciation for elimination of legacy Method editor, converting code from VB6 to VB.Net, Fixed Veracode flaws, sql injections, xml injections, encryption, achieved 90% fix without risk mitigation, Worked on AWS cloud services, and collaborated with teams across countries in agile scrum development environment"
+        "Achievements":"Developed code in C#, VB.net for Oil Analysis machine, providing detailed analysis of about 40 metal components, Eliminated legacy Method editor, converting code from VB6 to VB.Net, Fixed Veracode flaws, sql injections, xml injections, encryption, achieved 90% fix without risk mitigation, Worked on AWS cloud services, and collaborated with teams across countries in agile scrum development environment"
       },
       {
         "CompanyName":"Quinnox Consultancy Services Ltd",
